@@ -1,0 +1,132 @@
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/1.jfif);
+  background-size: cover;
+}
+
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.main{
+  width: 100%;
+  height: 60px;
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  margin: 0 5px;
+}
+
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3),
+button:nth-child(5),
+button:nth-child(6),
+button:nth-child(7){
+  color: silver;
+}
+
+button:nth-child(4){
+  background-color: #feb703;
+  border: none;
+}
+
+h2{
+  margin-left: 20px;
+  color:#feb703 ;
+  text-shadow: 2px 2px 1px black;
+}
+
+.search-block{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.search-block div{
+  font-weight: 500;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.search-block button{
+  font-size: 18px;
+  background-color: #feb703;
+  color: black;
+  font-weight: 500;
+  border: none;
+  width: 70px;
+}
+
+li{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.id,
+.acc,
+.winn{
+  color: green;
+}
+
+.needdep{
+  color: red;
+}
+
+.useInf{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: white;
+}
+
+.enterDep{
+  position: absolute;
+  top: 200px;
+  right: 0;
+}
+
+.enterDep input{
+  width: 50px;
+}
+
+.dep{
+  color: green;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: #222222;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer div{
+  color: #feb703;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.text{
+  color: white;
+}
